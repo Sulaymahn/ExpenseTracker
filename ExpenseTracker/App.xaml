@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ExpenseTracker.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <!--Colors-->
+            <Color x:Key="PrimaryColor">#217073</Color>
+            <Color x:Key="SecondaryColor">#d9a760</Color>
+            <Color x:Key="ButtonFrameColor">#a1d6d3</Color>
+            <Color x:Key="DarkTextColor">#003333</Color>
+            <Color x:Key="LightEntryFrameColor">#d3e2e1</Color>
+            <Color x:Key="LightEntryTextColor">#8c9b9a</Color>
+            <Color x:Key="EmptyViewColor">#298989</Color>
+            <Color x:Key="DarkEntryFrameColor">#a1d6d3</Color>
+            <Color x:Key="DarkEntryTextColor">#298989</Color>
+            <!--Labels-->
+            <Style x:Key="PageIntro" TargetType="Label">
+                <Setter Property="FontFamily" Value="Poppins-Black"/>
+                <Setter Property="FontSize" Value="60"/>
+            </Style>
+
+            <Style x:Key="Header" TargetType="Label">
+                <Setter Property="FontFamily" Value="Poppins-Black"/>
+                <Setter Property="FontSize" Value="72"/>
+            </Style>
+
+            <Style x:Key="BalancePrice" TargetType="Label">
+                <Setter Property="FontFamily" Value="Poppins-Black"/>
+                <Setter Property="FontSize" Value="80"/>
+            </Style>
+
+            <Style x:Key="SubHeader" TargetType="Label">
+                <Setter Property="FontFamily" Value="Poppins-Bold"/>
+                <Setter Property="FontSize" Value="60"/>
+            </Style>
+
+            <Style x:Key="Content" TargetType="Label">
+                <Setter Property="FontFamily" Value="Poppins-Medium"/>
+                <Setter Property="FontSize" Value="48"/>
+            </Style>
+
+            <Style x:Key="SubCategory" TargetType="Label">
+                <Setter Property="FontFamily" Value="Poppins-Bold"/>
+                <Setter Property="FontSize" Value="48"/>
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
